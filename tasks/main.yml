@@ -1,15 +1,15 @@
 ---
-- include:  1_prerequisites.yml
-  tags:
-  - seafile_prerequisites
+# - include:  1_prerequisites.yml
+#   tags:
+#   - seafile_prerequisites
 
 - include:  2_provision.yml
   tags:
   - seafile_provision
 
-- include:  3_download.yml
-  tags:
-  - seafile_download
+# - include:  3_download.yml
+#   tags:
+#   - seafile_download
 
 - include:  4_preconfigure.yml
   tags:
